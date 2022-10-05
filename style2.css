@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/back.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Questrial', sans-serif;
+}
+
+.container {
+    background: rgba(51, 51, 51, 0.192);
+    backdrop-filter: blur(5px);
+    height: 33em;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid rgba(43, 43, 43, 0.568);
+    padding: 50px 70px;
+    text-align: center;
+    margin: 2em auto;
+}
+
+h1 {
+    padding-bottom: 20px;
+    color: white;
+}
+
+form {
+    font-size: 20px;
+}
+
+.log-em input, .check, .add-f, select, fieldset, .log-pass input {
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+fieldset {
+    border: 0 none;
+}
+
+fieldset:nth-child(2) {
+    line-height: 1.8;
+    letter-spacing: 0.12em;
+    word-spacing: 0.16em;
+    font-size: 110%;
+}
+select {
+    font: inherit;
+    letter-spacing: inherit;
+    word-spacing: inherit;
+}
+.add-f input {
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+.btn {
+    border: 0;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 16px;
+    margin: 10px 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.send-let {
+    background: #ff8ee7;
+}
+
+.log-in {
+    border: 2px solid  #ffffff;
+    background: none;
+}
+.a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.auth {
+    height: 15em;
+    width: 380px;
+}
+
