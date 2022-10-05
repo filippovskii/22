@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма обратной связи</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Questrial:wght@100;400;700&family=Quicksand:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+
+        <div class="container auth">
+            <h1>Вход</h1>
+            <form method="post" action="http://httpbin.org/post" enctype="multipart/form-data">
+                <div class="log-pass">
+                    <label for="login">Логин</label>
+                    <input type="text" name="login" id="login">
+                </div>
+
+                <div class="log-pass">
+                    <label for="pass">Пароль</label>
+                    <input type="password" name="pass" id="pass">
+                </div>
+
+
+                <div class="check">
+                    <input type="checkbox" name="remember" id="remember" value="true">
+                    <label for="remember">Запомнить меня</label>
+                </div>
+
+
+                <button type="submit" class="btn send-let">Отправить</button>
+
+                <a href="form.html">Назад</a>
+
+            </form>
+        </div>
+
+    </main>
+</body>
+
+</html>
